@@ -7,10 +7,10 @@
     <title>ens</title>
     <!-- リセットcss -->
     <link rel="stylesheet" href="//unpkg.com/ress/dist/ress.min.css" />
-    <!-- swiper -->
+    <!-- slick -->
     <link
       rel="stylesheet"
-      href="//cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
     />
     <!-- css -->
     <link rel="stylesheet" href="css/style.css" />
@@ -39,26 +39,11 @@
     <main>
       <!-- top__image -->
       <div class="top__image">
-        <div class="top__inner wrapper">
-          <div class="top__item">
-            <img
-              src="images/pc_top.jpg"
-              alt="ensCOLLECTION Spring Collection 2017"
-            />
-          </div>
-          <div class="top__item">
-            <img
-              src="images/pc_top.jpg"
-              alt="ensCOLLECTION Spring Collection 2017"
-            />
-          </div>
-          <div class="top__item">
-            <img
-              src="images/pc_top.jpg"
-              alt="ensCOLLECTION Spring Collection 2017"
-            />
-          </div>
-        </div>
+        <ul class="top__list">
+          <li class="top__item top__item01"></li>
+          <li class="top__item top__item02"></li>
+          <li class="top__item top__item03"></li>
+        </ul>
       </div>
       <!-- /top__image -->
 
@@ -270,8 +255,13 @@
     </main>
     <!-- /main -->
 
-    <!-- swiper -->
-    <script src="//cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- slick -->
+    <script
+      src="//code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <!-- js -->
     <script src="script.js"></script>
   </body>
