@@ -4,11 +4,16 @@
 const top_swiper = new Swiper(".top__swiper", {
   loop: true,
   speed: 1000,
+  autoplay: {
+    speed: 350,
+  },
   slidesPerView: 1,
-  spaceBetween: 80,
+  spaceBetween: 0,
+  centeredSlides: true,
   breakpoints: {
     750: {
       slidesPerView: 1,
+      spaceBetween: 80,
     },
   },
   pagination: {
