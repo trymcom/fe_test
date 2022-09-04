@@ -321,10 +321,12 @@ li {
 .recently {
   padding: 6rem 5rem 10.4rem;
 }
-.swiper {
+
+.recentry__swiper {
   margin: 0 5rem;
 }
-.swiper-wrapper {
+
+.recentry__wrapper {
   width: 100%;
   height: 192px;
 }
@@ -333,13 +335,13 @@ li {
   position: relative;
 }
 
-.swiper-slide {
+.recently__slide {
   width: 100%;
   height: 100%;
 }
 
-.swiper-button-prev,
-.swiper-button-next {
+.recently__button--prev,
+.recently__button--next {
   width: 24px;
   height: 40px;
   transform: translateY(-50%);
@@ -347,8 +349,8 @@ li {
   position: absolute;
 }
 
-.swiper-button-prev:after,
-.swiper-button-next:after {
+.recently__button--prev:after,
+.recently__button--next:after {
   color: #888;
   font-size: 2rem;
 }
