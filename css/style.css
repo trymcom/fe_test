@@ -412,6 +412,11 @@ li {
     padding: 0 3em;
   }
 
+  .section__title {
+    font-size: 4rem;
+    margin-bottom: 6rem;
+  }
+
   .view-button {
     font-size: 2.4rem;
     width: 72%;
@@ -542,5 +547,63 @@ li {
 
   .category__txt h3 {
     font-size: 2.4rem;
+  }
+
+  /* coordinate */
+  .coordinate {
+    padding-bottom: 9.9rem;
+  }
+
+  .coordinate__inner {
+    flex-direction: column;
+    margin-bottom: 6rem;
+  }
+
+  .coordinate__item {
+    width: 345px;
+    height: 415px;
+    margin: 0;
+  }
+
+  .coordinate__item02 {
+    margin-left: auto;
+  }
+
+  .coordinate__txt {
+    width: 400px;
+  }
+
+  .coordinate__txt01,
+  .coordinate__txt03 {
+    padding: 4rem 0 4.1rem 3.9rem;
+  }
+
+  .coordinate__txt02 {
+    padding: 4rem 3.9rem 4.1rem 0;
+  }
+
+  .coordinate__txt01 {
+    top: 30%;
+    right: -100%;
+  }
+
+  .coordinate__txt02 {
+    top: 30%;
+    left: -100%;
+    text-align: end;
+  }
+
+  .coordinate__txt03 {
+    top: 30%;
+    left: 85%;
+  }
+
+  .coordinate__txt p {
+    font-size: 1.8rem;
+  }
+
+  .coordinate__txt h3 {
+    font-size: 3.6rem;
+    font-weight: 400;
   }
 }
