@@ -34,3 +34,13 @@ const swiper = new Swiper(".recentry__swiper", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+//スクロールイベント
+window.onscroll = function (e) {
+  const scroll = window.pageYOffset;
+  if (scroll >= 300) {
+    document.getElementById("page-top").classList.add("open");
+  } else {
+    document.getElementById("page-top").classList.remove("open");
+  }
+};

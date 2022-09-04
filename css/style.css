@@ -371,3 +371,36 @@ li {
   font-size: 1.1rem;
   margin-top: 2.9rem;
 }
+
+.top__link {
+  display: none;
+}
+
+.top__link.open {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border: 1px solid #dadada;
+  text-align: center;
+  position: fixed;
+  right: 3.8%;
+  bottom: 8%;
+  z-index: 500;
+}
+
+.top__link span {
+  display: inline-block;
+  vertical-align: middle;
+  color: #dadada;
+  line-height: 1;
+  width: 0.7em;
+  height: 0.7em;
+  border: 0.1em solid currentColor;
+  border-left: 0;
+  border-bottom: 0;
+  box-sizing: border-box;
+  transform: translateY(25%) rotate(-45deg);
+}
