@@ -35,6 +35,16 @@ li {
   text-align: center;
 }
 
+.view-button {
+  display: block;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  padding: 1.6rem 6.2rem;
+  text-align: center;
+  width: 20%;
+  margin: 0 auto;
+}
+
 /* ヘッダー */
 .header {
   position: fixed;
@@ -208,23 +218,59 @@ li {
   font-size: 2rem;
 }
 
-.view-button {
-  display: block;
-  font-size: 1.2rem;
-  border: 1px solid #ccc;
-  padding: 1.6rem 6.2rem;
-  text-align: center;
-  width: 20%;
-  margin: 0 auto;
+/*coordinate*/
+.coordinate {
+  padding-bottom: 10rem;
 }
 
+.coordinate__inner {
+  display: flex;
+  margin-bottom: 5rem;
+}
 
+.coordinate__item {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
 
+.coordinate__txt {
+  position: absolute;
+  background: #fff;
+  padding: 4.2rem 7.4rem 3.7rem;
+}
 
+.coordinate__item01 {
+  margin-right: 11.6rem;
+  width: 525px;
+  height: 630px;
+}
 
+.coordinate__item02,
+.coordinate__item03 {
+  width: 270px;
+  height: 324px;
+}
 
+.coordinate__item03 {
+  margin-left: 25rem;
+  margin-top: -1.8rem;
+}
 
+.coordinate__txt01 {
+  top: 60%;
+  right: -40%;
+}
 
+.coordinate__txt02 {
+  top: 30%;
+  right: -80%;
+}
+
+.coordinate__txt03 {
+  top: 50%;
+  left: -80%;
+}
 
 
 
