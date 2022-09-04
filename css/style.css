@@ -316,3 +316,39 @@ li {
   justify-content: center;
   align-items: center;
 }
+
+/* recently viewed */
+.recently {
+  padding: 6rem 5rem 10.4rem;
+}
+.swiper {
+  margin: 0 5rem;
+}
+.swiper-wrapper {
+  width: 100%;
+  height: 192px;
+}
+
+.recently__inner {
+  position: relative;
+}
+
+.swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: 24px;
+  height: 40px;
+  transform: translateY(-50%);
+  margin-top: 0;
+  position: absolute;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  color: #888;
+  font-size: 2rem;
+}

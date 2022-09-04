@@ -26,3 +26,20 @@ $(".top__list").on(
     $(".top__list").slick("slickPlay");
   }
 );
+
+// swiper
+const swiper = new Swiper(".swiper", {
+  spaceBetween: 28,
+  slidesPerView: 3,
+  breakpoints: {
+    // 768px以上の場合
+    768: {
+      slidesPerView: 6,
+    },
+  },
+  // ナビボタンが必要なら追加
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
