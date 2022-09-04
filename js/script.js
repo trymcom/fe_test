@@ -1,13 +1,13 @@
 "use strict";
 
 // .top__swiper
-const swiper1 = new Swiper(".top__swiper", {
+const top_swiper = new Swiper(".top__swiper", {
   loop: true,
   speed: 1000,
   slidesPerView: 1,
   spaceBetween: 80,
   breakpoints: {
-    768: {
+    750: {
       slidesPerView: 1,
     },
   },
@@ -25,7 +25,7 @@ const swiper = new Swiper(".recentry__swiper", {
   spaceBetween: 28,
   slidesPerView: 3,
   breakpoints: {
-    768: {
+    750: {
       slidesPerView: 6,
     },
   },
@@ -44,3 +44,28 @@ window.onscroll = function (e) {
     document.getElementById("page-top").classList.remove("open");
   }
 };
+
+// ハンバーガー
+$(function () {
+  $(".header__hamburger").on("click", function () {
+    $(".header__list , .hamburger__line").toggleClass("open");
+  });
+  $(".header__list a").on("click", function () {
+    $(".header__list, .hamburger__line").removeClass("open");
+  });
+});
+
+// スライド
+$(".top__slider").slick({
+  autoplay: true,
+  autoplaySpeed: 3000,
+  speed: 1000,
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  dots: true,
+  pauseOnFocus: false,
+  pauseOnHover: false,
+  pauseOnDotsHover: false,
+});
