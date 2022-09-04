@@ -7,9 +7,6 @@
     <title>ens</title>
     <!-- リセットcss -->
     <link rel="stylesheet" href="node_modules/ress/ress.css" />
-    <!-- slick -->
-    <link rel="stylesheet" href="css/slick.css" />
-    <link rel="stylesheet" href="css/slick-theme.css" />
     <!-- swiper -->
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <!-- css -->
@@ -40,11 +37,33 @@
     <main>
       <!-- top__image -->
       <div class="top__image">
-        <ul class="top__list">
-          <li class="top__item top__item01"></li>
-          <li class="top__item top__item02"></li>
-          <li class="top__item top__item03"></li>
-        </ul>
+        <div class="top__inner wrapper">
+          <div class="swiper top__swiper">
+            <div class="swiper-wrapper top__wrapper">
+              <div class="swiper-slide top__slide">
+                <img
+                  src="images/pc_top.jpg"
+                  alt="ens collection spring collection 2017"
+                />
+              </div>
+              <div class="swiper-slide top__slide">
+                <img
+                  src="images/pc_top.jpg"
+                  alt="ens collection spring collection 2017"
+                />
+              </div>
+              <div class="swiper-slide top__slide">
+                <img
+                  src="images/pc_top.jpg"
+                  alt="ens collection spring collection 2017"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination top__pagination"></div>
+          <div class="swiper-button-prev top__button--prev"></div>
+          <div class="swiper-button-next top__button--next"></div>
+        </div>
       </div>
       <!-- /top__image -->
 
@@ -264,9 +283,7 @@
     </main>
     <!-- /main -->
 
-    <!-- slick -->
     <script src="js/jquery-3.6.1.min.js"></script>
-    <script src="js/slick.min.js"></script>
     <!-- swiper -->
     <script src="js/swiper-bundle.min.js"></script>
     <!-- js -->
