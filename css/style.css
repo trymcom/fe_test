@@ -291,3 +291,28 @@ li {
 .new__price {
   margin-top: 2rem;
 }
+
+/* concept */
+.concept {
+  padding-bottom: 6rem;
+}
+
+.concept__inner {
+  display: flex;
+  justify-content: center;
+}
+
+.concept__img {
+  width: 480px;
+  height: 290px;
+}
+
+.concept__txt {
+  font: 1.2rem;
+  line-height: 3rem;
+  width: 35%;
+  margin-left: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
