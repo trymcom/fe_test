@@ -352,3 +352,11 @@ li {
   color: #888;
   font-size: 2rem;
 }
+
+/* sns */
+.sns {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0 2.6rem;
+  padding-bottom: 2.9rem;
+}
