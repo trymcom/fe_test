@@ -270,22 +270,24 @@ li {
 
 .concept__inner {
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 
 .concept__img {
   width: 480px;
   height: 290px;
+  margin-right: 8rem;
+}
+
+.concept__img img {
+  object-fit: cover;
 }
 
 .concept__txt {
-  font: 1.2rem;
+  font-size: 1.2rem;
   line-height: 3rem;
-  width: 35%;
-  margin-left: 8rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  max-width: 386px;
 }
 
 /* recently viewed */
@@ -615,5 +617,23 @@ li {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 4.8rem;
     margin-bottom: 6rem;
+  }
+
+  /* concept */
+  .concept {
+    padding-bottom: 9.9rem;
+  }
+
+  .concept__inner {
+    flex-direction: column;
+  }
+
+  .concept__img {
+    margin-right: 0;
+  }
+
+  .concept__txt {
+    margin: 2rem auto 0;
+    font-size: 1.5rem;
   }
 }
