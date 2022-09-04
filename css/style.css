@@ -412,6 +412,11 @@ li {
     padding: 0 3em;
   }
 
+  .view-button {
+    font-size: 2.4rem;
+    width: 72%;
+  }
+
   /* header */
   .header {
     height: 10rem;
@@ -518,5 +523,24 @@ li {
   .top__button--prev,
   .top__button--next {
     display: none;
+  }
+
+  /* category */
+  .category {
+    padding-bottom: 9.9rem;
+  }
+
+  .category__list {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+    margin-bottom: 5.9rem;
+  }
+
+  .category__txt p {
+    font-size: 1.5rem;
+  }
+
+  .category__txt h3 {
+    font-size: 2.4rem;
   }
 }
