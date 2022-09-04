@@ -272,14 +272,22 @@ li {
   left: -80%;
 }
 
+/* new */
+.new {
+  padding-bottom: 10rem;
+}
 
+.new__inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 4.8rem;
+  margin-bottom: 5rem;
+}
 
+.new__txt {
+  margin-top: 2.1rem;
+}
 
-
-
-
-
-
-
-
-
+.new__price {
+  margin-top: 2rem;
+}
