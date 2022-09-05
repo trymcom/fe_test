@@ -1,5 +1,5 @@
 /* リセットcss */
+@import "reset.css";
 
-/* slick */
-@import "./slick.css";
-@import "./slick-theme.css";
+/* swiper */
+@import "swiper-bundle.min.css";
