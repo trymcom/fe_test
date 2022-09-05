@@ -12,7 +12,6 @@
   font-weight: 400;
 }
 
-
 /* 共通設定 */
 html {
   font-size: 62.5%;
@@ -725,8 +724,8 @@ li {
 
   .footer__list {
     font-size: 2.4rem;
-    grid-template-columns: 1fr 1fr;
-    gap: 7rem 0;
+    grid-template-columns: 1fr auto;
+    gap: 7rem 19.3rem;
   }
 
   .footer__item {
