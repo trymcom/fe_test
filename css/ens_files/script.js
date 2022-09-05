@@ -26,14 +26,10 @@ const top_swiper = new Swiper(".top__swiper", {
 });
 
 // .recentry__swiper
-const swiper = new Swiper(".recently__swiper", {
-  spaceBetween: 16,
+const swiper = new Swiper(".recentry__swiper", {
+  spaceBetween: 28,
   slidesPerView: 3,
   breakpoints: {
-    600: {
-      spaceBetween: 28,
-      slidesPerView: 3,
-    },
     751: {
       slidesPerView: 6,
     },
