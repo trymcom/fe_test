@@ -1,8 +1,22 @@
 @charset "utf-8";
+/* font設定 */
+@font-face {
+  font-family: 'JosefinSans-Light';
+  src: url("../fonts/Josefin_Sans/JosefinSans-Light.ttf")
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'JosefinSans-Regular';
+  src: url("../fonts/Josefin_Sans/JosefinSans-Regular.ttf")
+  font-weight: 400;
+}
+
 
 /* 共通設定 */
 html {
   font-size: 62.5%;
+  font-family: 'JosefinSans-Light', 'JosefinSans-Regular', sans-serif;
 }
 
 img {
@@ -37,12 +51,14 @@ li {
 .section__title {
   margin-bottom: 5rem;
   font-size: 2.4rem;
+  font-weight: 300;
   text-align: center;
 }
 
 .view-button {
   display: block;
   font-size: 1.2rem;
+  font-weight: 400;
   border: 1px solid #ccc;
   padding: 1.6rem 6.2rem;
   text-align: center;
@@ -65,7 +81,6 @@ li {
 .header__inner {
   display: flex;
   height: 100%;
-
   align-items: center;
   justify-content: space-between;
 }
@@ -76,6 +91,7 @@ li {
 
 .header__title {
   font-size: 4rem;
+  font-weight: 300;
 }
 
 .header__list {
@@ -188,10 +204,14 @@ li {
 
 .category__txt p {
   font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: .4rem;
 }
 
 .category__txt h3 {
   font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: .4rem;
 }
 
 /*coordinate*/
@@ -211,12 +231,31 @@ li {
 }
 
 .coordinate__txt {
+  max-width: 260px;
   position: absolute;
   background: #fff;
-  padding: 4.2rem 7.4rem 3.7rem;
-}
+  }
 
-.coordinate__item01 {
+.coordinate__txt01,
+.coordinate__txt02
+ {
+    padding: 4rem 0 4.1rem 3.9rem;
+  }
+
+  .coordinate__txt03 {
+    padding: 4rem 3.9rem 4.1rem 0;
+  }
+
+  .coordinate__txt p {
+    font-size: 1rem;
+  }
+
+  .coordinate__txt h3 {
+    font-size: 2.2rem;
+    font-weight: 300;
+  }
+
+  .coordinate__item01 {
   margin-right: 11.6rem;
   width: 525px;
   height: 630px;
@@ -235,17 +274,18 @@ li {
 
 .coordinate__txt01 {
   top: 60%;
-  right: -40%;
+  right: -25%;
 }
 
 .coordinate__txt02 {
   top: 30%;
-  right: -80%;
+  right: -50%;
 }
 
 .coordinate__txt03 {
   top: 50%;
-  left: -80%;
+  left: -50%;
+  text-align: end;
 }
 
 /* new */
@@ -366,6 +406,7 @@ li {
 
 .footer__title {
   font-size: 3.6rem;
+  font-weight: 300;
 }
 
 .footer a {
