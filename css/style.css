@@ -1,21 +1,21 @@
 @charset "utf-8";
 /* font設定 */
 @font-face {
-  font-family: 'JosefinSans-Light';
-  src: url("../fonts/Josefin_Sans/JosefinSans-Light.ttf")
+  font-family: "JosefinSans-Light";
+  src: url(../fonts/Josefin_Sans/JosefinSans-Light.ttf);
   font-weight: 300;
 }
 
 @font-face {
-  font-family: 'JosefinSans-Regular';
-  src: url("../fonts/Josefin_Sans/JosefinSans-Regular.ttf")
+  font-family: "JosefinSans-Regular";
+  src: url(../fonts/Josefin_Sans/JosefinSans-Regular.ttf);
   font-weight: 400;
 }
 
 /* 共通設定 */
 html {
   font-size: 62.5%;
-  font-family: 'JosefinSans-Light', 'JosefinSans-Regular', sans-serif;
+  font-family: "JosefinSans-Light", "JosefinSans-Regular", sans-serif;
 }
 
 img {
@@ -32,10 +32,10 @@ li {
   list-style: none;
 }
 
-a.anchor{
-    display: block;
-    padding-top: 150px;
-    margin-top: -150px;
+a.anchor {
+  display: block;
+  padding-top: 15rem;
+  margin-top: -15rem;
 }
 
 .body {
@@ -210,13 +210,13 @@ a.anchor{
 .category__txt p {
   font-size: 1.2rem;
   font-weight: 400;
-  margin-bottom: .4rem;
+  margin-bottom: 0.4rem;
 }
 
 .category__txt h3 {
   font-size: 2rem;
   font-weight: 400;
-  margin-bottom: .4rem;
+  margin-bottom: 0.4rem;
 }
 
 /*coordinate*/
@@ -239,29 +239,28 @@ a.anchor{
   max-width: 260px;
   position: absolute;
   background: #fff;
-  }
+}
 
 .coordinate__txt01,
-.coordinate__txt02
- {
-    padding: 4rem 0 4.1rem 3.9rem;
-  }
+.coordinate__txt02 {
+  padding: 4rem 0 4.1rem 3.9rem;
+}
 
-  .coordinate__txt03 {
-    padding: 4rem 3.9rem 4.1rem 0;
-  }
+.coordinate__txt03 {
+  padding: 4rem 3.9rem 4.1rem 0;
+}
 
-  .coordinate__txt p {
-    font-size: 1rem;
-    margin-bottom: .4rem;
-  }
+.coordinate__txt p {
+  font-size: 1rem;
+  margin-bottom: 0.4rem;
+}
 
-  .coordinate__txt h3 {
-    font-size: 2.2rem;
-    font-weight: 300;
-  }
+.coordinate__txt h3 {
+  font-size: 2.2rem;
+  font-weight: 300;
+}
 
-  .coordinate__item01 {
+.coordinate__item01 {
   margin-right: 11.6rem;
   width: 525px;
   height: 630px;
@@ -460,7 +459,7 @@ a.anchor{
   transform: translateY(25%) rotate(-45deg);
 }
 
-@media  (max-width: 750px) {
+@media (max-width: 750px) {
   .wrapper {
     max-width: 750px;
     margin: 0 auto;
@@ -903,8 +902,8 @@ a.anchor{
 
   .recently__button--prev,
   .recently__button--next {
-    width: .8rem;
-    height: .8rem;
+    width: 0.8rem;
+    height: 0.8rem;
   }
 
   /* sns */
