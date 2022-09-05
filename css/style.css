@@ -32,6 +32,12 @@ li {
   list-style: none;
 }
 
+a.anchor{
+    display: block;
+    padding-top: 150px;
+    margin-top: -150px;
+}
+
 .body {
   color: #333;
 }
@@ -899,7 +905,6 @@ li {
   .recently__button--next {
     width: .8rem;
     height: .8rem;
-    top: 30%;
   }
 
   /* sns */
