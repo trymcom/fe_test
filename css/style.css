@@ -404,9 +404,9 @@ li {
   vertical-align: middle;
   color: #dadada;
   line-height: 1;
-  width: 0.7em;
-  height: 0.7em;
-  border: 0.1em solid currentColor;
+  width: 10px;
+  height: 10px;
+  border: 1px solid;
   border-left: 0;
   border-bottom: 0;
   box-sizing: border-box;
@@ -696,6 +696,17 @@ li {
   .copyright {
     font-size: 1.8rem;
     margin-top: 10rem;
+  }
+
+  .top__link.open {
+    width: 80px;
+    height: 80px;
+    bottom: 45%;
+  }
+
+  .top__link span {
+    width: 18px;
+    height: 18px;
   }
 }
 
