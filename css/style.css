@@ -613,8 +613,8 @@ li {
   }
 
   .coordinate__item {
-    max-width: 345px;
-    max-height: 415px;
+    width: 345px;
+    height: 415px;
     margin: 0;
   }
 
@@ -637,7 +637,7 @@ li {
 
   .coordinate__txt01 {
     top: 30%;
-    right: -100%;
+    right: -60%;
   }
 
   .coordinate__txt02 {
@@ -648,7 +648,9 @@ li {
 
   .coordinate__txt03 {
     top: 30%;
-    left: 85%;
+    left: 80%;
+    text-align: start;
+    width: 100%;
   }
 
   .coordinate__txt p {
@@ -749,9 +751,3 @@ li {
     height: 18px;
   }
 }
-
-/* @media (max-width: 1300px) {
-  .category__txt h3 {
-    font-size: 3rem;
-  }
-} */
