@@ -23,6 +23,11 @@ li {
   color: #333;
 }
 
+#container {
+  width: 100%;
+  overflow: hidden;
+}
+
 .wrapper {
   max-width: 1300px;
   margin: 0 auto;
@@ -410,6 +415,7 @@ li {
 
 @media (max-width: 750px) {
   .wrapper {
+    max-width: 750px;
     margin: 0 auto;
     padding: 0 3em;
   }
@@ -426,6 +432,7 @@ li {
 
   /* header */
   .header {
+    width: 100%;
     height: 10rem;
   }
 
@@ -457,6 +464,10 @@ li {
 
   .header__item {
     margin-bottom: 3.6rem;
+  }
+
+  .header__item a {
+    font-size: 2.4rem;
   }
 
   .header__hamburger {
@@ -562,8 +573,8 @@ li {
   }
 
   .coordinate__item {
-    width: 345px;
-    height: 415px;
+    max-width: 345px;
+    max-height: 415px;
     margin: 0;
   }
 
@@ -572,7 +583,7 @@ li {
   }
 
   .coordinate__txt {
-    width: 400px;
+    max-width: 400px;
   }
 
   .coordinate__txt01,
@@ -636,4 +647,29 @@ li {
     margin: 2rem auto 0;
     font-size: 1.5rem;
   }
+
+  /* recently */
+  .recently {
+    padding-bottom: 30.2rem;
+  }
+
+  /* sns */
+  .sns {
+    justify-content: center;
+    gap: 0 9.2rem;
+    padding-bottom: 8rem;
+    align-items: center;
+  }
+
+  .sns__item img {
+    width: 36px;
+    height: 29px;
+    object-fit: contain;
+  }
 }
+
+/* @media (max-width: 1300px) {
+  .category__txt h3 {
+    font-size: 3rem;
+  }
+} */

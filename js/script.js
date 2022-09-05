@@ -11,7 +11,7 @@ const top_swiper = new Swiper(".top__swiper", {
   spaceBetween: 0,
   centeredSlides: true,
   breakpoints: {
-    750: {
+    751: {
       slidesPerView: 1,
       spaceBetween: 80,
     },
@@ -30,7 +30,7 @@ const swiper = new Swiper(".recentry__swiper", {
   spaceBetween: 28,
   slidesPerView: 3,
   breakpoints: {
-    750: {
+    751: {
       slidesPerView: 6,
     },
   },
