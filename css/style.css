@@ -448,6 +448,10 @@ li {
   transform: translateY(25%) rotate(-45deg);
 }
 
+.top__link span{
+  color: #000;
+}
+
 @media (max-width: 750px) {
   .wrapper {
     max-width: 750px;
